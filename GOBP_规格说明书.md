@@ -122,9 +122,6 @@
 
 ## 6. 关键脚本位置
 
-- 绘制脚本：`D:\VSCode\enrichment_bubbleplot.R`（通用，不改）
+- 绘制脚本：enrichment_bubbleplot.R`（通用，不改）
 - 运行方式（两个输入：绘图数据 + 原始结果；输出名可选）：
-  ```
-  & "D:\R-4.6.0\bin\Rscript.exe" enrichment_bubbleplot.R 绘图数据.csv 原始结果.tsv [输出.tiff]
-  ```
 - 不传输出名时，输出图在绘图数据同目录，命名为 `<绘图数据名>_bubbleplot_900dpi.tiff`。
